@@ -27,3 +27,5 @@ Paso 4. Validamos la existencia del certificado dentro del Almacén (Owner: CN=[
 ```sh
 $ ./keytool -list -v -keystore cacerts
 ```
+
+### [Errores comunes](https://github.com/kioz-developer/cacerts/blob/master/errores/README.md) 
