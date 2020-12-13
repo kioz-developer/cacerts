@@ -29,3 +29,12 @@ $ ./keytool -list -v -keystore cacerts
 ```
 
 ### [Errores comunes](https://github.com/kioz-developer/cacerts/blob/master/errores/README.md) 
+
+### Notas adicionales
+
+Para indicar en Java la ubicación del cacerts:
+
+```sh
+System.setProperty("javax.net.ssl.trustStore", "[YOUR_CACERTS_PATH]/cacerts");
+System.setProperty("javax.net.ssl.trustStorePassword", "[YOUR_CACERTS_PASSWORD]");
+```
